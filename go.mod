@@ -1,4 +1,4 @@
-module goak
+module github.com/sinyenn/goak
 
 go 1.14
 
