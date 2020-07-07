@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/google/uuid"
+	"github.com/sinyenn/goak/crypto/padding"
 	"strings"
-	"goak/crypto/padding"
 )
 
 type Mode int

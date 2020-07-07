@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 	"fmt"
+	"github.com/sinyenn/goak/crypto/padding"
 	"testing"
-	"goak/crypto/padding"
 )
 
 var key128 = "1234567890123456"
