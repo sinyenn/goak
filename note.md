@@ -2,9 +2,9 @@
 
 转自 https://learnku.com/docs/go-blog/publishing-go-modules/6474
 
-`go.mod` 中的每个必需模块都有一个 语义版本，这是用于构建模块的依赖项的最低版本。
+`go.mod` 中的每个必需模块都有一个语义版本，这是用于构建模块的依赖项的最低版本。
 
-语义版本的形式为 `vMAJOR.MINOR.PATCH`.
+语义版本的形式为`vMAJOR.MINOR.PATCH`.
 
 * 对模块的公共 API 进行向后不兼容更改时，请增加 MAJOR 版本。仅应在绝对必要时执行此操作。
 * 对 API 进行向后兼容的更改时，请增加 MINOR 版本，例如更改依赖关系或添加新的函数，方法，结构字段或类型。
